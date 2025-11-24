@@ -10,7 +10,7 @@ It models an e-commerce dataset (users, products, orders, reviews) using a three
 
 ## 1. Architecture overview
 
-![Data lineage – bronze / silver / gold](./images/dbt_lineage.png)
+![Data lineage – bronze / silver / gold](./tests/dbt_lineage.png)
 
 The lineage graph above summarizes the pipeline:
 
