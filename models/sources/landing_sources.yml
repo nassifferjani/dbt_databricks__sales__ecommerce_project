@@ -1,0 +1,29 @@
+sources:
+  - name: landing
+    database: dbt_project_catalog
+    schema: landing
+    tables:
+      - name: orders
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+      - name: products
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+      - name: reviews
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
+      - name: users
+        columns:
+          - name: id
+            tests:
+              - unique
+              - not_null
